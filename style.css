@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+.pageHeader {
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+nav ul li {
+    
+   
+    
+}
+
+
+
+
+
+.logo {
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left;
+}
+
