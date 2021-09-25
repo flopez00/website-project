@@ -76,24 +76,30 @@ h1 {
     font-family: sans-serif;
 }
 
-.quoteDiv {
+.quoteDiv,
+.quoteDiv2 {
     background-color: #e5e7eb;
-   
+    
 }
 
 .quoteDiv p {
     display: flex;
     justify-content: center;
     padding: 100px;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
    
 }
 
-.quoteDiv h3, 
+.quoteDiv2, 
 .quoteDiv p {
     padding-left: 500px;
     padding-right: 500px;
 }
 
-.quoteDiv h3 {
+.quoteDiv2 {
     text-align: right;
+    
 }
