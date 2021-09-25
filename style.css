@@ -48,9 +48,52 @@ nav ul {
 .image {
     background-color: rgb(133, 128, 128);
     width: 600px;
-    height: 200px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
 }
 
-.image alt {
-    text-align: center;
+.signUpBx {
+    height: 250px;
+    line-height: 100px;
+
+}
+
+.signUpBtn {
+    font-size: 15px;
+    width: 100px;
+    height: 27px;
+    background-color: rgb(67, 115, 247);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.quoteDiv {
+    background-color: #e5e7eb;
+   
+}
+
+.quoteDiv p {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+   
+}
+
+.quoteDiv h3, 
+.quoteDiv p {
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.quoteDiv h3 {
+    text-align: right;
 }
