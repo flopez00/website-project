@@ -62,7 +62,7 @@ nav ul {
 .signUpBtn {
     font-size: 15px;
     width: 100px;
-    height: 27px;
+    height: 33px;
     background-color: rgb(67, 115, 247);
     border: none;
     border-radius: 5px;
@@ -76,6 +76,34 @@ h1 {
     font-family: sans-serif;
 }
 
+.illustrations {
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+
+.illustrations ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.illustrations ul li img {
+    width: 150px;
+    height: 150px;
+    border-color: rgb(67, 115, 247);
+    border-style: solid;
+    border-radius: 10px;
+    
+}
+
+.illustrations ul li img,
+.illustrations ul li p {
+    width: 170px;
+    height: 170px;
+
+}
 .quoteDiv,
 .quoteDiv2 {
     background-color: #e5e7eb;
@@ -112,7 +140,9 @@ h1 {
     margin-right: 150px;
     margin-left: 150px;
     margin-top: 100px;
+    margin-bottom: 100px;
     height: 110px;
+    color: white;
    
 }
 
@@ -121,20 +151,30 @@ h1 {
     flex-direction: column;
     line-height: 20px;
     justify-content: center;
-    
+    margin-left: 150px;
 }
 
 .signUpBtn2 {
     margin-right: 150px;
     font-size: 15px;
     width: 100px;
-    height: 27px;
+    height: 33px;
     background-color: rgb(67, 115, 247);
     margin-top: 45px;
     border-radius: 5px;
     color: white;
     border-color: white;
     border-style: solid;
-   
+   text-align: center;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    font-family: sans-serif;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+  
 }
 
