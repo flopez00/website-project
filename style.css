@@ -5,6 +5,13 @@
     list-style: none;
 }
 
+.nav ul li {
+    cursor: pointer;
+}
+
+.nav ul li :hover {
+    color: rgb(26, 90, 228);
+}
 
 .pageHeader {
     background-color: #1F2937;
